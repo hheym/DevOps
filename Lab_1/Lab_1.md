@@ -8,4 +8,5 @@
 # Ход работы
 ## Nginx
 Первое, что нужно было сделать - поставить nginx на компьютер и разобраться как он работает. В моем случае я ставил Nginx на макбук, для этого мне нужно было прописать несколько команд:
-<pre> ```bash sudo nginx -t sudo nginx -s reload ``` </pre>
+<pre> ```bash sudo nginx -t 
+sudo nginx -s reload ``` </pre>
