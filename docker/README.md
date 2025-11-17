@@ -32,6 +32,17 @@ Docker правильно кэширует слои → пересборка б�
 **Результат:**  
 Контейнер безопаснее. Даже если взломают, вред минимален.
 
+## Сборка докеров
+### Плохой докерфайл
+![Билд bad](screenshots/badBuild.jpg)
+![Запуск bad](screenshots/badStart.jpg)
+
+### Хороший докерфайл
+![Билд good](screenshots/goodBuild.jpg)
+![Запуск good](screenshots/goodStart.jpg)
+
+### Браузер
+![localhost](screenshots/browser.jpg)
 
 # Тутор: как убить рабочий докерфайл
 
