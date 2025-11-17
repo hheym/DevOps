@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y python3 python3-pip && \
-    pip install flask requests && mkdir /app && cp -r * /app/
+    pip install --break-system-packages flask requests
 
 WORKDIR /app
 COPY . .
